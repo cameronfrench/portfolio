@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Cameron French</h1>
         <nav>
             <a href="#about">About</a>
@@ -21,40 +21,47 @@
 
     <main>
         <section class="about-section">
-            <div class="about">
+            <div class="about-txt">
                 <h2 id="about">About</h2>
                 <p>Cameron is in the process of becoming a Full Stack Web Developer through Vanderbilt University's
-                    Coding Bootcamp.</p>
+                    Coding Bootcamp.
+                </p>
             </div>
-            <figure>
-                <img class="about-image" src="assets/images/cameron_polaroid.jpg" alt="portait of cameron">
-            </figure>
+            <div class="about-img">
+                <img src="assets/images/cameron_polaroid.jpg" alt="portait of cameron">
+            </div>
         </section>
 
-        <section class="work-section">
-            <h2 id="work">Work</h2>
-            <div class="feature">
-                <a href="https://cameronfrench.github.io/css-snippet-cheatsheet/"></a>
-                <img src="assets/images/css-snippet.jpg" alt="css cheatsheet">
-                <h3>CSS Snippet Cheatsheet</h3>
-            </div>
-            <section class="secondary">
-                <div class="secondary-one">
-                    <a href="https://cameronfrench.github.io/code-refactor-seo/"></a>
-                    <img src="assets/images/horiseon-1.jpg" alt="website">
-                    <h3>SEO Code Refactoring</h3>
-                </div>
-                <div class="secondary-two">
-                    <a href="https://cameronfrench.github.io/prework-study-guide/"></a>
-                    <img src="assets/images/preworkstudyguide.jpg" alt="study guide">
-                    <h3>Pre-Work Study Guide</h3>
-                </div>
-            </section>
+        <section>
+            <div class="work-section">
+                <h2 id="work">Work</h2>
+                <a href="https://cameronfrench.github.io/css-snippet-cheatsheet/" class="work-item-feature">
+                    <h3 class="project-heading">CSS Snippet Cheatsheet</h3>
+                    <img class="work-img" src="assets/images/css-snippet.jpg" alt="css cheatsheet">
+                </a>
+                <a href="https://cameronfrench.github.io/code-refactor-seo/" class="work-item">
+                    <h3 class="project-heading">SEO Code Refactoring</h3>
+                    <img class="work-img" src="assets/images/horiseon-1.jpg" alt="website">
+                </a>
+                <a href="https://cameronfrench.github.io/prework-study-guide/" class="work-item">
+                    <h3 class="project-heading">Pre-Work Study Guide</h3>
+                    <img class="work-img" src="assets/images/preworkstudyguide.jpg" alt="study guide">
+                </a>
         </section>
 
         <section class="contact-section">
             <h2 id="contact">Contact</h2>
-            <img src="" alt="">
+            <ul>
+                <li>
+                    <a href="tel:5555555501">555-555-5501</a>
+                </li>
+                <li>
+                    <a href="mailto:gmail.com">myemail@gmail.com</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/cameron-french-293779183/">My LinkedIn</a>
+                </li>
+            </ul>
         </section>
     </main>
 
